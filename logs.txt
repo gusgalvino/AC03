@@ -1,0 +1,28 @@
+2020-10-14T22:26:34.644016+00:00 app[api]: Release v1 created by user gustavodr09@gmail.com
+2020-10-14T22:26:34.644016+00:00 app[api]: Initial release by user gustavodr09@gmail.com
+2020-10-14T22:26:34.789616+00:00 app[api]: Release v2 created by user gustavodr09@gmail.com
+2020-10-14T22:26:34.789616+00:00 app[api]: Enable Logplex by user gustavodr09@gmail.com
+2020-10-14T22:32:39.000000+00:00 app[api]: Build started by user gustavodr09@gmail.com
+2020-10-14T22:33:03.991902+00:00 app[api]: Release v3 created by user gustavodr09@gmail.com
+2020-10-14T22:33:03.991902+00:00 app[api]: Deploy 6172f8b7 by user gustavodr09@gmail.com
+2020-10-14T22:33:04.009068+00:00 app[api]: Scaled to web@1:Free by user gustavodr09@gmail.com
+2020-10-14T22:33:07.185566+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:33:09.226959+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-14T22:33:09.283802+00:00 heroku[web.1]: Process exited with status 2
+2020-10-14T22:33:09.321673+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T22:33:09.324505+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T22:33:12.000000+00:00 app[api]: Build succeeded
+2020-10-14T22:33:12.096135+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:33:14.125313+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-14T22:33:14.184591+00:00 heroku[web.1]: Process exited with status 2
+2020-10-14T22:33:14.233942+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T22:36:14.823734+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=0edef3b5-eb23-4478-aab4-640101ab3ca3 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:36:15.279171+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=a8c48bb7-42ae-41b6-9d85-4acb24d78b3c fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:38:25.416163+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=335544a8-53ee-453f-aef6-d557ce520e25 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:38:25.989048+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=89929280-0d07-4ce5-ba80-b25e9bcf637f fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:42:04.074212+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=120183d2-ac1d-451e-ac70-17db9b852a60 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:42:04.414314+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=3a22e7e0-7a9e-465f-b35b-0a775c52ef9d fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:44:12.414161+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=c0bca41b-cff3-482e-8f11-9e2b1573caa4 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:44:13.367133+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=ad97978f-e2f4-4374-9a92-cd6a2248e3c6 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:48:41.026937+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=ae01ff27-b340-4067-9b22-0e21defb7ff8 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:48:41.400064+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=6a19f46f-2664-437d-98bd-099b44198264 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
