@@ -1,0 +1,98 @@
+2020-10-14T22:26:34.644016+00:00 app[api]: Release v1 created by user gustavodr09@gmail.com
+2020-10-14T22:26:34.644016+00:00 app[api]: Initial release by user gustavodr09@gmail.com
+2020-10-14T22:26:34.789616+00:00 app[api]: Release v2 created by user gustavodr09@gmail.com
+2020-10-14T22:26:34.789616+00:00 app[api]: Enable Logplex by user gustavodr09@gmail.com
+2020-10-14T22:32:39.000000+00:00 app[api]: Build started by user gustavodr09@gmail.com
+2020-10-14T22:33:03.991902+00:00 app[api]: Release v3 created by user gustavodr09@gmail.com
+2020-10-14T22:33:03.991902+00:00 app[api]: Deploy 6172f8b7 by user gustavodr09@gmail.com
+2020-10-14T22:33:04.009068+00:00 app[api]: Scaled to web@1:Free by user gustavodr09@gmail.com
+2020-10-14T22:33:07.185566+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:33:09.226959+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-14T22:33:09.283802+00:00 heroku[web.1]: Process exited with status 2
+2020-10-14T22:33:09.321673+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T22:33:09.324505+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T22:33:12.000000+00:00 app[api]: Build succeeded
+2020-10-14T22:33:12.096135+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:33:14.125313+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-14T22:33:14.184591+00:00 heroku[web.1]: Process exited with status 2
+2020-10-14T22:33:14.233942+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T22:36:14.823734+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=0edef3b5-eb23-4478-aab4-640101ab3ca3 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:36:15.279171+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=a8c48bb7-42ae-41b6-9d85-4acb24d78b3c fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:38:25.416163+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=335544a8-53ee-453f-aef6-d557ce520e25 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:38:25.989048+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=89929280-0d07-4ce5-ba80-b25e9bcf637f fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:42:04.074212+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=120183d2-ac1d-451e-ac70-17db9b852a60 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:42:04.414314+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=3a22e7e0-7a9e-465f-b35b-0a775c52ef9d fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:44:12.414161+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=c0bca41b-cff3-482e-8f11-9e2b1573caa4 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:44:13.367133+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=ad97978f-e2f4-4374-9a92-cd6a2248e3c6 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:48:41.026937+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=ae01ff27-b340-4067-9b22-0e21defb7ff8 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:48:41.400064+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=6a19f46f-2664-437d-98bd-099b44198264 fwd="177.33.80.146" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T22:57:32.848299+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T22:57:37.277596+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T22:57:39.626935+00:00 app[web.1]: python: can't open file 'primos.py': [Errno 2] No such file or directory
+2020-10-14T22:57:39.682056+00:00 heroku[web.1]: Process exited with status 2
+2020-10-14T22:57:39.752355+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T23:09:54.000000+00:00 app[api]: Build started by user gustavodr09@gmail.com
+2020-10-14T23:10:17.260927+00:00 app[api]: Deploy cda4f2ba by user gustavodr09@gmail.com
+2020-10-14T23:10:17.260927+00:00 app[api]: Release v4 created by user gustavodr09@gmail.com
+2020-10-14T23:10:17.499133+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T23:10:20.496395+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-14T23:10:23.576019+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-14T23:10:23.576052+00:00 app[web.1]: * Environment: production
+2020-10-14T23:10:23.576131+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T23:10:23.576205+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T23:10:23.576268+00:00 app[web.1]: * Debug mode: off
+2020-10-14T23:10:23.613845+00:00 app[web.1]: * Running on http://0.0.0.0:58220/ (Press CTRL+C to quit)
+2020-10-14T23:10:23.820130+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T23:10:25.000000+00:00 app[api]: Build succeeded
+2020-10-14T23:12:37.351973+00:00 app[web.1]: 10.35.250.120 - - [14/Oct/2020 23:12:37] "GET / HTTP/1.1" 200 -
+2020-10-14T23:12:37.352962+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=97103313-4b2d-4358-bce2-39f4fa50dc2b fwd="177.33.80.146" dyno=web.1 connect=0ms service=3ms status=200 bytes=186 protocol=https
+2020-10-14T23:12:37.623532+00:00 app[web.1]: 10.35.250.120 - - [14/Oct/2020 23:12:37] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-14T23:12:37.624445+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=cde2a1eb-9f7a-4dd9-889e-4f3eaa0b0635 fwd="177.33.80.146" dyno=web.1 connect=0ms service=17ms status=404 bytes=379 protocol=https
+2020-10-14T23:48:02.000000+00:00 app[api]: Build started by user gustavodr09@gmail.com
+2020-10-14T23:48:25.198843+00:00 app[api]: Release v5 created by user gustavodr09@gmail.com
+2020-10-14T23:48:25.198843+00:00 app[api]: Deploy d8ca6287 by user gustavodr09@gmail.com
+2020-10-14T23:48:25.613337+00:00 heroku[web.1]: Restarting
+2020-10-14T23:48:25.634275+00:00 heroku[web.1]: State changed from up to starting
+2020-10-14T23:48:27.012321+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-14T23:48:27.102965+00:00 heroku[web.1]: Process exited with status 143
+2020-10-14T23:48:28.560854+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T23:48:31.193375+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T23:48:31.193404+00:00 app[web.1]: * Environment: production
+2020-10-14T23:48:31.193432+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T23:48:31.193463+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T23:48:31.193496+00:00 app[web.1]: * Debug mode: off
+2020-10-14T23:48:31.217019+00:00 app[web.1]: * Running on http://0.0.0.0:41915/ (Press CTRL+C to quit)
+2020-10-14T23:48:31.356106+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T23:48:33.000000+00:00 app[api]: Build succeeded
+2020-10-14T23:50:10.131010+00:00 app[web.1]: 10.69.178.208 - - [14/Oct/2020 23:50:10] "GET / HTTP/1.1" 200 -
+2020-10-14T23:50:10.132251+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=38836e53-35e1-41cc-9a33-45b763a7129a fwd="177.33.80.146" dyno=web.1 connect=0ms service=13ms status=200 bytes=629 protocol=https
+2020-10-14T23:51:08.581248+00:00 app[web.1]: 10.30.214.102 - - [14/Oct/2020 23:51:08] "GET / HTTP/1.1" 200 -
+2020-10-14T23:51:08.584044+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=2b276e13-1dff-465e-bf3b-23176292f72f fwd="177.33.80.146" dyno=web.1 connect=0ms service=12ms status=200 bytes=629 protocol=http
+2020-10-14T23:51:09.187974+00:00 app[web.1]: 10.30.214.102 - - [14/Oct/2020 23:51:09] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-14T23:51:09.190901+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=71ec5885-d0a6-465e-8c68-acc02e8154eb fwd="177.33.80.146" dyno=web.1 connect=0ms service=18ms status=404 bytes=379 protocol=http
+2020-10-14T23:51:37.602983+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 23:51:37] "GET / HTTP/1.1" 200 -
+2020-10-14T23:51:37.605865+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=c9145092-8529-4ae2-bf73-5ae96170c061 fwd="187.38.61.63" dyno=web.1 connect=1ms service=11ms status=200 bytes=629 protocol=http
+2020-10-14T23:51:38.842142+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 23:51:38] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-14T23:51:38.845101+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=800d622a-ed5b-4baf-9765-842aaff5777e fwd="187.38.61.63" dyno=web.1 connect=1ms service=4ms status=404 bytes=379 protocol=http
+2020-10-14T23:52:22.813377+00:00 app[web.1]: 10.41.153.135 - - [14/Oct/2020 23:52:22] "GET / HTTP/1.1" 200 -
+2020-10-14T23:52:22.815980+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=2b9cc73c-d44f-4f0a-8419-0507202bf0ae fwd="187.38.61.63" dyno=web.1 connect=1ms service=12ms status=200 bytes=629 protocol=http
+2020-10-14T23:52:38.437107+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=a3b818a4-7bb9-442b-acb4-74f2220631b7 fwd="177.33.80.146" dyno=web.1 connect=0ms service=13ms status=200 bytes=629 protocol=http
+2020-10-14T23:52:38.438873+00:00 app[web.1]: 10.5.212.115 - - [14/Oct/2020 23:52:38] "GET / HTTP/1.1" 200 -
+2020-10-14T23:52:39.920313+00:00 app[web.1]: 10.5.212.115 - - [14/Oct/2020 23:52:39] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-14T23:52:39.921842+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=atividadecontinua03.herokuapp.com request_id=12786c85-cb4d-4f3c-8f42-07ef8ddfdfce fwd="177.33.80.146" dyno=web.1 connect=0ms service=6ms status=404 bytes=379 protocol=http
+2020-10-15T00:26:32.273278+00:00 heroku[web.1]: Idling
+2020-10-15T00:26:32.280517+00:00 heroku[web.1]: State changed from up to down
+2020-10-15T00:26:33.249947+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-15T00:26:33.329505+00:00 heroku[web.1]: Process exited with status 143
+2020-10-15T00:54:42.861319+00:00 heroku[web.1]: Unidling
+2020-10-15T00:54:42.863343+00:00 heroku[web.1]: State changed from down to starting
+2020-10-15T00:54:46.596427+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-15T00:54:49.410960+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-15T00:54:49.410994+00:00 app[web.1]: * Environment: production
+2020-10-15T00:54:49.411152+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-15T00:54:49.411203+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-15T00:54:49.411248+00:00 app[web.1]: * Debug mode: off
+2020-10-15T00:54:49.440493+00:00 app[web.1]: * Running on http://0.0.0.0:11392/ (Press CTRL+C to quit)
+2020-10-15T00:54:49.804409+00:00 heroku[web.1]: State changed from starting to up
+2020-10-15T00:54:50.921715+00:00 heroku[router]: at=info method=GET path="/" host=atividadecontinua03.herokuapp.com request_id=9c6e6fc9-885e-44ed-8007-3aba3c866295 fwd="177.33.80.146" dyno=web.1 connect=1ms service=12ms status=200 bytes=629 protocol=https
+2020-10-15T00:54:50.921927+00:00 app[web.1]: 10.63.41.14 - - [15/Oct/2020 00:54:50] "GET / HTTP/1.1" 200 -
